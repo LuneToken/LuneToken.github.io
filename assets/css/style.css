@@ -486,6 +486,10 @@ h3.service-description-4 {
     max-width: 70%;
 }
 
+.feature-title h3 {
+    color: white;
+}
+
 /* -----------------------------------*\
   #RESET
 \*----------------------------------- */
@@ -580,6 +584,7 @@ body {
 
 .section {
     padding-block: var(--section-padding);
+    background-color: #111222;
 }
 
 .h1,
@@ -799,6 +804,7 @@ body {
 
 .section-title {
     margin-block: 30px 50px;
+    color: white;
 }
 
 .grid-list {
