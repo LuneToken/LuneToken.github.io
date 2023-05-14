@@ -450,7 +450,7 @@ h3.service-description-3 {
 
 .service-title-4 a {
     font-size: 2.5em;
-    color: #00ff6c;
+    color: gold;
     text-align: center;
 }
 
@@ -1048,8 +1048,7 @@ body {
     max-width: max-content;
     padding: 15px;
     border-radius: var(--radius-8);
-
-    /* background-color: hsla(var(--color), 0.15); */
+    background-color: hsla(var(--color), 0.15);
     margin-block-end: 25px;
     transition: var(--transition-2);
 }

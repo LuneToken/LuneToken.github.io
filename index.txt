@@ -58,7 +58,7 @@ Our Services
 
 Managing you business with our best service
 
---color: 174, 77%, 50%
+--color: 0.14, 100%, 50%
 
 alt = service icon
 Product Management

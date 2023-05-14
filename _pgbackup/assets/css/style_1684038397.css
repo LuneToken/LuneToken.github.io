@@ -364,7 +364,7 @@ h3.service-description-1 {
 
 .service-title-2 a {
     font-size: 2.5em;
-    color: #0F52BA;
+    color: gold;
     text-align: center;
 }
 
@@ -388,16 +388,6 @@ h3.service-description-2 {
     font-size: 1.1em;
 }
 
-h3.service-description-22 {
-    max-width: max-content;
-    align-self: center;
-    margin-top: 5px;
-    font-style: italic;
-    font-weight: light;
-    text-align: center;
-    font-size: 1.1em;
-}
-
 .service-image-2 {
     display: flex;
     justify-content: center;
@@ -412,7 +402,7 @@ h3.service-description-22 {
 
 .service-title-3 a {
     font-size: 2.5em;
-    color: #ff0048;
+    color: gold;
     text-align: center;
 }
 
@@ -450,7 +440,7 @@ h3.service-description-3 {
 
 .service-title-4 a {
     font-size: 2.5em;
-    color: #00ff6c;
+    color: gold;
     text-align: center;
 }
 
@@ -1048,8 +1038,7 @@ body {
     max-width: max-content;
     padding: 15px;
     border-radius: var(--radius-8);
-
-    /* background-color: hsla(var(--color), 0.15); */
+    background-color: hsla(var(--color), 0.15);
     margin-block-end: 25px;
     transition: var(--transition-2);
 }

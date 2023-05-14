@@ -1048,8 +1048,7 @@ body {
     max-width: max-content;
     padding: 15px;
     border-radius: var(--radius-8);
-
-    /* background-color: hsla(var(--color), 0.15); */
+    background-color: hsla(var(--color), 0.15);
     margin-block-end: 25px;
     transition: var(--transition-2);
 }
