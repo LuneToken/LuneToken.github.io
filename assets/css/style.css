@@ -1269,7 +1269,7 @@ body {
   #BLOG
 \*----------------------------------- */
 .blog {
-    background-color: var(--ghost-white);
+    background-color: #111222;
 }
 
 .blog .section-title {
