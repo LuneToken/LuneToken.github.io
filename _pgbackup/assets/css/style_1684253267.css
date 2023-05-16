@@ -1552,32 +1552,6 @@ body {
 /* *
  * responsive for large than 575px screen */
 @media (min-width: 575px) {
-    .onlyrocket {
-        margin: 40vw 2vw 2vw 32vw;
-    }
-
-    .rocket {
-        width: 20vw;
-        transform: rotate(30deg);
-    }
-
-    .rocketfire {
-        margin: 85vw 2vw 2vw 22vw;
-    }
-
-    .rocketfire2 {
-        margin: 88vw 2vw 2vw 32vw;
-    }
-
-    .rocketfire3 {
-        margin: 85vw 2vw 2vw 27vw;
-    }
-
-    .lune {
-        margin: 20vw 20vw 20vw 10vw;
-        width: 20vw;
-    }
-
     /* *
    * REUSED STYLE */
     .container {

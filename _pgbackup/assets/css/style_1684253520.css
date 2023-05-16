@@ -1557,20 +1557,20 @@ body {
     }
 
     .rocket {
-        width: 20vw;
+        width: 24vw;
         transform: rotate(30deg);
     }
 
     .rocketfire {
-        margin: 85vw 2vw 2vw 22vw;
+        margin: 95vw 2vw 2vw 22vw;
     }
 
     .rocketfire2 {
-        margin: 88vw 2vw 2vw 32vw;
+        margin: 100vw 2vw 2vw 32vw;
     }
 
     .rocketfire3 {
-        margin: 85vw 2vw 2vw 27vw;
+        margin: 96vw 2vw 2vw 27vw;
     }
 
     .lune {

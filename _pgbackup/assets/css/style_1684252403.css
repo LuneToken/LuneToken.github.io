@@ -336,7 +336,7 @@
 }
 
 .service-title-1 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: gold;
     text-align: center;
 }
@@ -376,7 +376,7 @@ h3.service-description-1 {
 }
 
 .service-title-2 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 h3.service-title-2 {
@@ -418,13 +418,13 @@ h3.service-description-22 {
 }
 
 .service-title-3 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #ff0048;
     text-align: center;
 }
 
 .service-title-3 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 h3.service-title-3 {
@@ -456,13 +456,13 @@ h3.service-description-3 {
 }
 
 .service-title-4 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #00ff6c;
     text-align: center;
 }
 
 .service-title-4 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 h3.service-title-4 {
@@ -1504,7 +1504,7 @@ body {
 /* -----------------------------------*\
   #MEDIA QUERIES
 \*----------------------------------- */
-@media (min-width: 24px) {
+@media (min-width: 320px) {
     .onlyrocket {
         margin: 55vw 2vw 2vw 32vw;
     }
@@ -1531,53 +1531,14 @@ body {
         width: 20vw;
     }
 
-    .service-card {
-        display: block;
-    }
-
-    .card-icon {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .feature-list {
-        text-align: center;
-    }
-
-    .h2.section-title {
-        text-align: center;
+    .card-title {
+        font-size: 0.5vw;
     }
 }
 
 /* *
  * responsive for large than 575px screen */
 @media (min-width: 575px) {
-    .onlyrocket {
-        margin: 40vw 2vw 2vw 32vw;
-    }
-
-    .rocket {
-        width: 20vw;
-        transform: rotate(30deg);
-    }
-
-    .rocketfire {
-        margin: 85vw 2vw 2vw 22vw;
-    }
-
-    .rocketfire2 {
-        margin: 88vw 2vw 2vw 32vw;
-    }
-
-    .rocketfire3 {
-        margin: 85vw 2vw 2vw 27vw;
-    }
-
-    .lune {
-        margin: 20vw 20vw 20vw 10vw;
-        width: 20vw;
-    }
-
     /* *
    * REUSED STYLE */
     .container {
