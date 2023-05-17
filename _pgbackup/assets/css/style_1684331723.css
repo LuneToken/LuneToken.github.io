@@ -336,7 +336,7 @@
 }
 
 .service-title-1 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: gold;
     text-align: center;
 }
@@ -376,7 +376,7 @@ h3.service-description-1 {
 }
 
 .service-title-2 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 h3.service-title-2 {
@@ -418,13 +418,13 @@ h3.service-description-22 {
 }
 
 .service-title-3 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #ff0048;
     text-align: center;
 }
 
 .service-title-3 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 h3.service-title-3 {
@@ -456,13 +456,13 @@ h3.service-description-3 {
 }
 
 .service-title-4 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: #00ff6c;
     text-align: center;
 }
 
 .service-title-4 a {
-    font-size: 1.5em;
+    font-size: 2.5em;
 }
 
 h3.service-title-4 {
@@ -1504,7 +1504,42 @@ body {
 /* -----------------------------------*\
   #MEDIA QUERIES
 \*----------------------------------- */
-@media (min-width: 24px) {
+/* *
+ * responsive for large than 575px screen */
+@media (min-width: 175px) {
+    /* *
+   * REUSED STYLE */
+    .container {
+        max-width: 540px;
+        width: 100%;
+        margin-inline: auto;
+    }
+
+    /* *
+   * HEADER */
+    .header .container {
+        max-width: unset;
+    }
+
+    /* *
+   * PROJECT */
+    .project-card .card-content {
+        max-width: max-content;
+        width: calc(100% - 40px);
+        left: 50%;
+        right: auto;
+        padding: 50px 80px;
+        transform: translate(-50%, calc(-50% + 20px));
+    }
+
+    .project-card:is(:hover, :focus-within) .card-content {
+        transform: translate(-50%, -50%);
+    }
+
+    .project-card .card-title {
+        margin-block-end: 10px;
+    }
+
     .onlyrocket {
         margin: 55vw 2vw 2vw 32vw;
     }
@@ -1547,68 +1582,21 @@ body {
     .h2.section-title {
         text-align: center;
     }
-}
 
-/* *
- * responsive for large than 575px screen */
-@media (min-width: 575px) {
-    .onlyrocket {
-        margin: 40vw 2vw 2vw 32vw;
+    .service-title-1 a {
+        font-size: 1.5em;
     }
 
-    .rocket {
-        width: 24vw;
-        transform: rotate(30deg);
+    .service-title-2 a {
+        font-size: 1.5em;
     }
 
-    .rocketfire {
-        margin: 95vw 2vw 2vw 22vw;
+    .service-title-3 a {
+        font-size: 1.5em;
     }
 
-    .rocketfire2 {
-        margin: 100vw 2vw 2vw 32vw;
-    }
-
-    .rocketfire3 {
-        margin: 96vw 2vw 2vw 27vw;
-    }
-
-    .lune {
-        margin: 20vw 20vw 20vw 10vw;
-        width: 20vw;
-    }
-
-    /* *
-   * REUSED STYLE */
-    .container {
-        max-width: 540px;
-        width: 100%;
-        margin-inline: auto;
-    }
-
-    /* *
-   * HEADER */
-    .header .container {
-        max-width: unset;
-    }
-
-    /* *
-   * PROJECT */
-    .project-card .card-content {
-        max-width: max-content;
-        width: calc(100% - 40px);
-        left: 50%;
-        right: auto;
-        padding: 50px 80px;
-        transform: translate(-50%, calc(-50% + 20px));
-    }
-
-    .project-card:is(:hover, :focus-within) .card-content {
-        transform: translate(-50%, -50%);
-    }
-
-    .project-card .card-title {
-        margin-block-end: 10px;
+    .service-title-4 a {
+        font-size: 1.5em;
     }
 }
 
@@ -1760,6 +1748,32 @@ body {
 
     .footer-bottom-list {
         justify-content: center;
+    }
+
+    .onlyrocket {
+        margin: 40vw 2vw 2vw 32vw;
+    }
+
+    .rocket {
+        width: 20vw;
+        transform: rotate(30deg);
+    }
+
+    .rocketfire {
+        margin: 85vw 2vw 2vw 22vw;
+    }
+
+    .rocketfire2 {
+        margin: 88vw 2vw 2vw 32vw;
+    }
+
+    .rocketfire3 {
+        margin: 85vw 2vw 2vw 27vw;
+    }
+
+    .lune {
+        margin: 20vw 20vw 20vw 10vw;
+        width: 20vw;
     }
 }
 
@@ -2046,8 +2060,14 @@ body {
     .blog-card .card-title {
         --fs-4: 2.4rem;
     }
-}
 
-}
+    .service-card {
+        display: flex;
+    }
 
+    .lune {
+        margin: 15vw 20vw 20vw 10vw;
+        width: 12vw;
+    }
+}
 }
