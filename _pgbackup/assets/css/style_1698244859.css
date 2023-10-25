@@ -117,9 +117,23 @@
     font-weight: bold;
     color: white;
     position: absolute;
-    top: 18vw;
-    left: 27vw;
-    background: -webkit-linear-gradient(90deg, rgba(0,245,153,1) 0%, rgba(0,165,237,1) 100%);
+    top: 15vw;
+    left: 20vw;
+    background: -webkit-linear-gradient(90deg, rgba(62,27,127,255) 0%, rgba(226,119,204,255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 2;
+}
+
+.xodex::first-letter {
+    font-family: Moon;
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+    background: -webkit-linear-gradient(90deg, rgba(62,27,127,255) 0%, rgba(226,119,204,255) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 2;
@@ -1791,6 +1805,22 @@ body {
         margin: 20vw 20vw 20vw 10vw;
         width: 20vw;
     }
+
+    .title {
+        top: 17vw;
+    }
+
+    .on {
+        top: 28vw;
+    }
+
+    .xodexx {
+        top: 27vw;
+    }
+
+    .xodex {
+        top: 27vw;
+    }
 }
 
 /* *
@@ -2105,6 +2135,24 @@ body {
 
     .rocketfire3 {
         margin: 57vw 2vw 2vw 33vw;
+    }
+
+    .title {
+        top: 7vw;
+    }
+
+    .on {
+        top: 18vw;
+    }
+
+    .xodexx {
+        top: 20vw;
+        width: 10vw;
+        left: 19vw;
+    }
+
+    .xodex {
+        top: 17vw;
     }
 }
 

@@ -91,7 +91,7 @@
     overflow: hidden;
 }
 
-#title {
+.title {
     font-family: Moon;
     font-size: 10vw;
     font-weight: lighter;
@@ -101,7 +101,7 @@
     left: 10vw;
 }
 
-#on {
+.on {
     font-family: Moon;
     font-size: 7vw;
     font-weight: bold;
@@ -111,21 +111,35 @@
     left: 7vw;
 }
 
-#xodex {
+.xodex {
     font-family: Moon;
     font-size: 7vw;
     font-weight: bold;
     color: white;
     position: absolute;
-    top: 18vw;
-    left: 27vw;
-    background: -webkit-linear-gradient(90deg, rgba(0,245,153,1) 0%, rgba(0,165,237,1) 100%);
+    top: 15vw;
+    left: 20vw;
+    background: -webkit-linear-gradient(90deg, rgba(62,27,127,255) 0%, rgba(226,119,204,255) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 2;
 }
 
-#xodexx {
+.xodex::first-letter {
+    font-family: Moon;
+    font-size: 10vw;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+    background: -webkit-linear-gradient(90deg, rgba(62,27,127,255) 0%, rgba(226,119,204,255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 2;
+}
+
+.xodexx {
     width: 13vw;
     position: absolute;
     top: 17vw;
@@ -1598,6 +1612,22 @@ body {
     .service-title-4 a {
         font-size: 1.5em;
     }
+
+    .title {
+        top: 27vw;
+    }
+
+    .on {
+        top: 38vw;
+    }
+
+    .xodexx {
+        top: 37vw;
+    }
+
+    .xodex {
+        top: 37vw;
+    }
 }
 
 /* *
@@ -1774,6 +1804,22 @@ body {
     .lune {
         margin: 20vw 20vw 20vw 10vw;
         width: 20vw;
+    }
+
+    .title {
+        top: 17vw;
+    }
+
+    .on {
+        top: 28vw;
+    }
+
+    .xodexx {
+        top: 27vw;
+    }
+
+    .xodex {
+        top: 27vw;
     }
 }
 
@@ -2080,15 +2126,34 @@ body {
     }
 
     .rocketfire {
-        margin: 50vw 2vw 2vw 30vw;
+        margin: 55vw 2vw 2vw 29vw;
     }
 
     .rocketfire2 {
-        margin: 56vw 2vw 2vw 36vw;
+        margin: 61vw 2vw 2vw 36vw;
     }
 
     .rocketfire3 {
-        margin: 52vw 2vw 2vw 34vw;
+        margin: 57vw 2vw 2vw 33vw;
+    }
+
+    .title {
+        top: 7vw;
+    }
+
+    .on {
+        top: 18vw;
+    }
+
+    .xodexx {
+        top: 20vw;
+        width: 10vw;
+        left: 19vw;
+    }
+
+    .xodex {
+        top: 13vw;
+        left: 19vw;
     }
 }
 

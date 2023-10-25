@@ -1,22 +1,22 @@
 /* -----------------------------------*\
-  #style.css
+#style.css
 \*----------------------------------- */
 /* *
- * copyright 2022 codewithsadee */
+* copyright 2022 codewithsadee */
 /* -----------------------------------*\
-  #CUSTOM PROPERTY
+#CUSTOM PROPERTY
 \*----------------------------------- */
 @font-face {
     font-family: 'moonlight';
     src: url('../fonts/moon_light-webfont.woff2') format('woff2'),
-         url('../fonts/moon_light-webfont.woff') format('woff');
+        url('../fonts/moon_light-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 :root {
     /* *
-   * colors */
+    * colors */
     --sky-blue-crayola: hsl(188, 64%, 60%);
     --raisin-black_90: hsla(240, 8%, 12%, 0.9);
     --raisin-black-1: hsl(240, 8%, 17%);
@@ -37,11 +37,11 @@
     --jet: hsl(0, 0%, 21%);
 
     /* *
-   * gradient */
+    * gradient */
     --gradient: radial-gradient(ellipse at center, hsla(0, 0%, 0%, 0.25), transparent 80%);
 
     /* *
-   * typography */
+    * typography */
     --ff-dm-sans: 'DM Sans', sans-serif;
     --fs-1: 4rem;
     --fs-2: 3.5rem;
@@ -56,11 +56,11 @@
     --fw-700: 700;
 
     /* *
-   * spacing */
+    * spacing */
     --section-padding: 100px;
 
     /* *
-   * shadow */
+    * shadow */
     --shadow-1: 0px 2px 50px hsla(223, 40%, 76%, 0.3);
     --shadow-2: 0px -2px 12px hsl(252, 29%, 93%);
     --shadow-3: 0px 4px 4px hsla(231, 20%, 49%, 0.06);
@@ -68,14 +68,14 @@
     --shadow-5: 0px 15px hsla(241, 62%, 34%, 0.04);
 
     /* *
-   * radius */
+    * radius */
     --radius-8: 8px;
     --radius-10: 10px;
     --radius-15: 15px;
     --radius-20: 20px;
 
     /* *
-   * transition */
+    * transition */
     --transition-1: 0.25s ease;
     --transition-2: 0.5s ease;
     --cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
@@ -91,7 +91,7 @@
     overflow: hidden;
 }
 
-#title {
+.title {
     font-family: Moon;
     font-size: 10vw;
     font-weight: lighter;
@@ -101,7 +101,7 @@
     left: 10vw;
 }
 
-#on {
+.on {
     font-family: Moon;
     font-size: 7vw;
     font-weight: bold;
@@ -111,21 +111,35 @@
     left: 7vw;
 }
 
-#xodex {
+.xodex {
     font-family: Moon;
     font-size: 7vw;
     font-weight: bold;
     color: white;
     position: absolute;
-    top: 18vw;
-    left: 27vw;
-    background: -webkit-linear-gradient(90deg, rgba(0,245,153,1) 0%, rgba(0,165,237,1) 100%);
+    top: 15vw;
+    left: 20vw;
+    background: -webkit-linear-gradient(90deg, rgba(62,27,127,255) 0%, rgba(226,119,204,255) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     z-index: 2;
 }
 
-#xodexx {
+.xodex::first-letter {
+    font-family: Moon;
+    font-size: 14vw;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+    background: -webkit-linear-gradient(90deg, rgba(62,27,127,255) 0%, rgba(226,119,204,255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    z-index: 2;
+}
+
+.xodexx {
     width: 13vw;
     position: absolute;
     top: 17vw;
@@ -174,7 +188,7 @@
 }
 
 /* -----------------------------------*\
-  #FLAME
+#FLAME
 \*----------------------------------- */
 .rocketandfire {
     position: relative;
@@ -498,7 +512,7 @@ h3.service-description-4 {
 }
 
 /* -----------------------------------*\
-  #RESET
+#RESET
 \*----------------------------------- */
 *,
 *::before,
@@ -583,7 +597,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #REUSED STYLE
+#REUSED STYLE
 \*----------------------------------- */
 .container {
     padding-inline: 15px;
@@ -838,7 +852,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #HEADER
+#HEADER
 \*----------------------------------- */
 .header .btn {
     display: none;
@@ -955,7 +969,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #HERO
+#HERO
 \*----------------------------------- */
 .hero {
     padding-block-start: calc(var(--section-padding) + 60px);
@@ -1024,7 +1038,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #SERVICE
+#SERVICE
 \*----------------------------------- */
 .service {
     background-color: #111222;
@@ -1109,7 +1123,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #FEATURE
+#FEATURE
 \*----------------------------------- */
 .feature .container,
 .feature-list {
@@ -1147,7 +1161,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #PROJECT
+#PROJECT
 \*----------------------------------- */
 .project {
     background-color: var(--ghost-white);
@@ -1226,7 +1240,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #NEWSLETTER
+#NEWSLETTER
 \*----------------------------------- */
 .newsletter {
     color: var(--white);
@@ -1273,7 +1287,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #BLOG
+#BLOG
 \*----------------------------------- */
 .blog {
     background-color: #111222;
@@ -1366,7 +1380,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #FOOTER
+#FOOTER
 \*----------------------------------- */
 .footer {
     background-color: var(--raisin-black-1);
@@ -1470,7 +1484,7 @@ body {
 }
 
 /* -----------------------------------*\
-  #BACK TO TOP
+#BACK TO TOP
 \*----------------------------------- */
 .back-top-btn {
     position: fixed;
@@ -1502,13 +1516,13 @@ body {
 }
 
 /* -----------------------------------*\
-  #MEDIA QUERIES
+#MEDIA QUERIES
 \*----------------------------------- */
 /* *
- * responsive for large than 575px screen */
+* responsive for large than 575px screen */
 @media (min-width: 175px) {
     /* *
-   * REUSED STYLE */
+    * REUSED STYLE */
     .container {
         max-width: 540px;
         width: 100%;
@@ -1516,13 +1530,13 @@ body {
     }
 
     /* *
-   * HEADER */
+    * HEADER */
     .header .container {
         max-width: unset;
     }
 
     /* *
-   * PROJECT */
+    * PROJECT */
     .project-card .card-content {
         max-width: max-content;
         width: calc(100% - 40px);
@@ -1598,27 +1612,43 @@ body {
     .service-title-4 a {
         font-size: 1.5em;
     }
+
+    .title {
+        top: 27vw;
+    }
+
+    .on {
+        top: 38vw;
+    }
+
+    .xodexx {
+        top: 37vw;
+    }
+
+    .xodex {
+        top: 37vw;
+    }
 }
 
 /* *
- * responsive for large than 768px screen */
+* responsive for large than 768px screen */
 @media (min-width: 768px) {
     /* *
-   * CUSTOM PROPERTY */
+    * CUSTOM PROPERTY */
     :root {
         /* *
-     * typography */
+        * typography */
         --fs-1: 5.5rem;
         --fs-2: 3.8rem;
         --fs-7: 1.8rem;
 
         /* *
-     * spacing */
+        * spacing */
         --section-padding: 120px;
     }
 
     /* *
-   * REUSED STYLE */
+    * REUSED STYLE */
     .container {
         max-width: 720px;
     }
@@ -1632,7 +1662,7 @@ body {
     }
 
     /* *
-   * HERO */
+    * HERO */
     .hero .container {
         gap: 120px;
     }
@@ -1670,7 +1700,7 @@ body {
     }
 
     /* *
-   * FEATURE */
+    * FEATURE */
     .feature-banner {
         max-width: max-content;
     }
@@ -1695,13 +1725,13 @@ body {
     }
 
     /* *
-   * PROJECT */
+    * PROJECT */
     .project .grid-list > li:first-child {
         grid-column: 1 / 3;
     }
 
     /* *
-   * NEWSLETTER */
+    * NEWSLETTER */
     .newsletter-form {
         position: relative;
     }
@@ -1720,7 +1750,7 @@ body {
     }
 
     /* *
-   * BLOG */
+    * BLOG */
     .blog-card:not(.large) {
         display: flex;
         align-items: center;
@@ -1737,7 +1767,7 @@ body {
     }
 
     /* *
-   * FOOTER */
+    * FOOTER */
     .footer-top {
         grid-template-columns: 1fr 1fr;
     }
@@ -1775,13 +1805,29 @@ body {
         margin: 20vw 20vw 20vw 10vw;
         width: 20vw;
     }
+
+    .title {
+        top: 17vw;
+    }
+
+    .on {
+        top: 28vw;
+    }
+
+    .xodexx {
+        top: 27vw;
+    }
+
+    .xodex {
+        top: 27vw;
+    }
 }
 
 /* *
- * responsive for large than 992px screen */
+* responsive for large than 992px screen */
 @media (min-width: 992px) {
     /* *
-   * REUSED STYLE */
+    * REUSED STYLE */
     .container {
         max-width: 960px;
     }
@@ -1795,10 +1841,10 @@ body {
     }
 
     /* *
-   * HEADER
+    * HEADER
     .header {
-        padding-block-start: 47px;
-    } */
+    padding-block-start: 47px;
+} */
     .nav-open-btn,
     .overlay,
     .navbar .wrapper {
@@ -1861,7 +1907,7 @@ body {
     }
 
     /* *
-   * HERO */
+    * HERO */
     .hero {
         background-image: linear-gradient(to right, var(--white) 79%, var(--mustard) 79%);
         overflow: hidden;
@@ -1886,21 +1932,21 @@ body {
     }
 
     /* *
-   * FEATURE */
+    * FEATURE */
     .feature .container {
         grid-template-columns: 1fr 1fr;
         gap: 30px;
     }
 
     /* *
-   * PROJECT */
+    * PROJECT */
     .filter-btn {
         --fs-9: 1.8rem;
         padding: 20px 25px;
     }
 
     /* *
-   * NEWSLETTER */
+    * NEWSLETTER */
     .newsletter .container {
         grid-template-columns: 1fr 0.8fr;
         align-items: center;
@@ -1923,7 +1969,7 @@ body {
     }
 
     /* *
-   * BLOG */
+    * BLOG */
     .blog-list {
         grid-template-columns: 1fr 1fr;
         gap: 40px 70px;
@@ -1950,7 +1996,7 @@ body {
     }
 
     /* *
-   * FOOTER */
+    * FOOTER */
     .footer-top {
         grid-template-columns: 1fr 0.5fr 0.5fr 0.9fr;
         padding-block: 120px;
@@ -1968,19 +2014,19 @@ body {
 }
 
 /* *
- * responsive for large than 1200px screen */
+* responsive for large than 1200px screen */
 @media (min-width: 1200px) {
     /* *
-   * CUSTOM PROPERTY */
+    * CUSTOM PROPERTY */
     :root {
         /* *
-     * typography */
+        * typography */
         --fs-1: 5.5rem;
         --fs-2: 4.5rem;
     }
 
     /* *
-   * REUSED STYLE */
+    * REUSED STYLE */
     .container {
         max-width: 1140px;
     }
@@ -1991,7 +2037,7 @@ body {
     }
 
     /* *
-   * HEADER */
+    * HEADER */
     .header .container {
         padding-inline: 30px;
     }
@@ -2001,7 +2047,7 @@ body {
     }
 
     /* *
-   * HERO */
+    * HERO */
     .hero-content {
         display: flex;
         flex-direction: column;
@@ -2022,7 +2068,7 @@ body {
     }
 
     /* *
-   * SERVICE */
+    * SERVICE */
     .service .grid-list {
         grid-template-columns: repeat(4, 1fr);
     }
@@ -2032,13 +2078,13 @@ body {
     }
 
     /* *
-   * PROJECT */
+    * PROJECT */
     .filter-btn {
         padding-inline: 40px;
     }
 
     /* *
-   * BLOG */
+    * BLOG */
     .blog-list {
         column-gap: 35px;
     }
@@ -2070,20 +2116,73 @@ body {
         width: 12vw;
     }
 
+    .onlyrocket {
+        margin: 18vw 2vw 2vw 40vw;
+    }
+
     .rocket {
         width: 17vw;
         transform: rotate(40deg);
     }
 
     .rocketfire {
-        margin: 60vw 2vw 2vw 20vw;
+        margin: 55vw 2vw 2vw 29vw;
     }
 
     .rocketfire2 {
-        margin: 66vw 2vw 2vw 28vw;
+        margin: 61vw 2vw 2vw 36vw;
     }
 
     .rocketfire3 {
-        margin: 62vw 2vw 2vw 25vw;
+        margin: 57vw 2vw 2vw 33vw;
+    }
+
+    .title {
+        top: 7vw;
+    }
+
+    .on {
+        top: 18vw;
+    }
+
+    .xodexx {
+        top: 20vw;
+        width: 10vw;
+        left: 19vw;
+    }
+
+    .xodex {
+        top: 13vw;
+        left: 19vw;
+    }
+}
+
+/* *
+* responsive for large than 1200px screen */
+@media (min-width: 1500px) {
+    .lune {
+        margin: 12vw 10vw 20vw 10vw;
+        width: 10vw;
+    }
+
+    .onlyrocket {
+        margin: 15vw 2vw 2vw 55vw;
+    }
+
+    .rocket {
+        width: 12vw;
+        transform: rotate(50deg);
+    }
+
+    .rocketfire {
+        margin: 39vw 2vw 2vw 45vw;
+    }
+
+    .rocketfire2 {
+        margin: 43.5vw 2vw 2vw 50vw;
+    }
+
+    .rocketfire3 {
+        margin: 41vw 2vw 2vw 48vw;
     }
 }
